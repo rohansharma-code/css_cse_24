@@ -1,0 +1,25 @@
+.container{
+    background-color: aqua;
+    border: 2px solid black;
+    height: 500px;
+    width: 500px;
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-areas: "header header header header"
+                        " main main . sidebar "
+                         "footer footer footer footer";
+}
+
+/* grid template rows and columns */
+.item{
+    
+    height: 100px;
+    width: 100px;
+    border: 1px solid rgb(197, 26, 80);
+    text-align: center;
+    align-items: center;
+    background-color:black;
+ 
+}
+
+
